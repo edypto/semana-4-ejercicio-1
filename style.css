@@ -40,14 +40,8 @@ ul{
     gap: 2rem;
 }
 
-ul li  a{
-    text-decoration: none;
-    color: white;
-}
 
-/* BOX-MODEL */
-
-
+  
 
 
 p{
@@ -56,6 +50,10 @@ p{
 h2{
     margin-bottom: 4rem;
     text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .box-model{
@@ -125,4 +123,5 @@ p{
    
     
 }
+
 
