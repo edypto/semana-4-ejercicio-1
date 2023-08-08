@@ -40,6 +40,7 @@ ul{
     gap: 2rem;
 }
 
-a{
+ul li a{
     text-decoration: none;
+    color: white;
 }
