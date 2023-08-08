@@ -40,6 +40,89 @@ ul{
     gap: 2rem;
 }
 
-a{
+ul li  a{
     text-decoration: none;
+    color: white;
 }
+
+/* BOX-MODEL */
+
+
+
+
+p{
+    margin-bottom: 4rem;
+}
+h2{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.box-model{
+    display: flex;
+    gap: 5rem;
+    
+}
+
+.box{
+    border: 1px solid black;
+    margin: 0 auto;
+    height: 30rem;
+    width: 30rem;
+}
+.box-1{
+    background-color: green;
+    height: 10rem;
+    width: 10rem;
+    border: 1rem solid black;
+    
+}
+
+
+.box-2{
+
+    text-align: center;
+    background-color: red;
+    height: 10rem;
+    width: 10rem;
+    /* padding: 10rem; */
+
+    padding: 10rem 1rem 5rem 1rem;
+   
+}
+
+p{
+    text-align: center;
+}
+
+.box-3{
+
+    background-color: orange;
+    height: 10rem;
+    width: 10rem;
+    
+    margin-bottom: 5rem;
+   
+}
+
+.box-4{
+
+    background-color: brown;
+    height: 10rem;
+    width: 10rem;
+    margin-top: 5rem;
+   
+    
+}
+
+
+.box-5{
+
+    background-color: pink;
+    height: 10rem;
+    width: 10rem;
+    margin-top: -10rem;
+   
+    
+}
+
