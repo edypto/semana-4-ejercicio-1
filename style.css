@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+header{
+    padding: 2rem ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
